@@ -28,3 +28,7 @@ Armenian, Chinese (Hanyu Pinyin), Japanese (Hepburn), Georgian
 ### Partially supported languages (1)
 
 Greek (few diacritics are missing but small and capital letters are ok)
+
+### Participate
+
+If you want to join the project, send me email to hikikomori82 at gmail dot com. If you want more characters, tell me which characters you need, I will add them.
