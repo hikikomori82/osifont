@@ -1,0 +1,129 @@
+<html>
+  <head>
+    <title>osifont sample page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>  
+      @font-face {  
+        font-family: osifont;
+        src: url('osifont.ttf') format('truetype');  
+      }
+      body {
+        font-family: osifont, comic-sans;
+        -moz-font-feature-settings: "liga", "dlig";
+        -ms-font-feature-settings: "liga", "dlig";
+        -o-font-feature-settings: "liga", "dlig";
+        -webkit-font-feature-settings: "liga", "dlig";
+        font-feature-settings: "liga", "dlig";
+      }
+    </style>
+  </head>
+  <script type="text/javascript">
+  //<![CDATA[
+  function updatePreview(aText) {
+    var preview = document.getElementById('preview'),
+        i, 
+        d,
+        size = [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 25, 25, 26, 30, 36, 48, 72, 112];
+    document.location.hash = '#' + encodeURIComponent(aText);
+    preview.contentEditable = true;
+    preview.innerHTML = '';
+    for (i = 0; i < size.length; i++) {
+        d = document.createElement('div');
+        d.innerHTML = size[i] + 'px: ' + aText;
+        d.style.fontSize = size[i] + 'px';
+        preview.appendChild(d);
+    }
+  }
+
+  function onLoad() {
+    if (document.location.hash) {
+        updatePreview(decodeURIComponent(document.location.hash.substr(1)));
+    } else {
+        updatePreview('osifont sample, click here and type any text (this area is editable) or choose sample text from combobox.');
+    }
+  }
+  //]]>
+  </script>
+  <body onload="onLoad()">
+
+    <noscript>
+    This page is best viewed with JavaScript enabled.
+    </noscript>
+
+    <nav>
+        <select onchange="updatePreview(this.value)">
+            <option value="">Choose sample text here</option>
+            <option value="Latin - ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789">Latin glyphs</option>
+            <option value="Special - ()+-×÷*=≠[]{}!?&amp;&quot;'#$/:;\&lt;&gt;@~|%‰°±≤≥∞= 2m² 3m³ ··⋅ –— ¹⁰⁴⁵⁶⁷⁸⁹⁺⁻⁼⁽⁾ ≠≈≡½¼¾№¶">Special glyphs</option>
+            <option value="CAD symbols - ℄↔↗↧∠⌀⌒⌓⌖⌭⌯⌰⌳⌲⌴⌵⍵⏊⏤⏥ⒺⒻⓁⓂⓅⓈⓉⓊ□○◎⫽">CAD symbols</option>
+            <option value="Kerning is [Ȩȩ], ligatures are [Ȼȼ] (on=working, no=not working).">Kerning and ligatures test</option>
+            <optgroup label="Fully supported languages (32)">
+                <option value="Afrikaans - Sê ek moet sy zebra en xilofoon in bring, want môre gaan dit reën (ÁáÉéÈèÊêËëÍíÎîÏÓóÔôÚúÛûÝý)">Afrikaans</option>
+                <option value="Albanian - Veçori tipologjike të shqipes së sotme standarde (ÇçËë)">Albanian</option>
+                <option value="Azerbaijani - AaBbCcÇçDdEeƏəFfGgĞğHhXxIıİiJjKkQqLlMmNnOoÖöPpRrSsŞşTtUuÜüVvYyYAyaYEyeEeYOyoYUyuZz (ƏəƢƣЬьƵƶӘI̡ı̡ƟɵЗзЈАјаN̡n̡)">Azerbaijani</option>
+                <option value="Belorussian - Я магу есці шкло, яно мне не шкодзіць (АаБбВвГгДдЕеЁёЖжЗзІіЙйКкЛлМмНнОоПпРрСсТтУуЎўФфХхЦцЧчШшЫыЬьЭэЮюЯя’)">Belorussian</option>
+                <option value="Bosnian - Moja lebdjelica je puna jegulja (ĆćČčĐđŠšŽžÁáÝýİıŞş)">Bosnian</option>
+                <option value="Bulgarian - За миг бях в чужд плюшен скърцащ фотьойл (АаБбВвГгДдЕеЖжЗзИиЙйКкЛлМмНнОоПпРрСсТтУуФфХхЦцЧчШшЩщЪъЬьЮюЯя)">Bulgarian</option>
+                <option value="Catalan - Jove xef, porti whisky amb quinze glaçons d'hidrogen, coi! (ÇçÜüÏïÉéÍíÓóÚúÀàÈèÒò)">Catalan</option>
+                <option value="Croatian - Gojazni đačić s biciklom drži hmelj i finu vatu u džepu nošnje. (ČčĆćĐđŠšŽž)">Croatian</option>
+                <option value="Czech - Žluťoučký kůň si úpěl své ódy (ÁáČčĎďÉéĚěÍíŇňÓóŘřŠšŤťÚúŮůÝýŽž)">Czech</option>
+                <option value="Danish - Høj bly gom vandt fræk sexquiz på wc (ÆæØøÅå)">Danish</option>
+                <option value="Dutch - Pa's wijze lynx bezag vroom het fikse aquaduct (latin)">Dutch</option>
+                <option value="English - Quick brown fox jumps over the lazdy dog for one £ and two ¢ (latin)">English</option>
+                <option value="Estonian - See väike mölder jõuab rongile hüpata (ÄäÖöÜüÕõŠšŽž)">Estonian</option>
+                <option value="Finnish - Törkylempijävongahdus (ÅåÄäÖö)">Finnish</option>
+                <option value="French - Voyez le brick géant que j'examine près du wharf (ÀàÂâÇçÉéÈèÊêËëÎîÏïÔôÛûÙùÜüŸÿÑñŒœ)">French</option>
+                <option value="German - Falsches Üben von Xylophonmusik quält jeden größeren Zwerg (ÜüÄäÖöß)">German</option>
+                <option value="Hungarian - Egy hűtlen vejét fülöncsípő, dühös mexikói úr Wesselényinél mázol Quitóban (ÁáÉéÍíÓóÖöŐőÚúÜüŰű)">Hungarian</option>
+                <option value="Icelandic - Svo hölt, yxna kýr þegði jú um dóp í fé á bæ (ÁáÐðÉéÍíÓóÚúÝýÞþÆæÖö)">Icelandic</option>
+                <option value="Irish - Ċuaiġ bé ṁórsháċ le dlúṫspád fíorḟinn trí hata mo ḋea-ṗorcáin ḃig (ḂḃĊċḊḋḞḟĠġṀṁṖṗṠṡṪṫ)">Irish</option>
+                <option value="Italian - Ma la volpe, col suo balzo, ha raggiunto il quieto Fido (latin)">Italian</option>
+                <option value="Kazakh - Менің әуе негіз кемесi жыланбалықпен толтырылған (АаӘәБбВвГгҒғДдЕеЁёЖжЗзИиЙйКкҚқЛлМмНнҢңОоӨөПпРрСсТтУуҰұҮүФфХхҺһЦцЧчШшЩщЪъЫыІіЬьЭэЮюЯя)">Kazakh</option>
+                <option value="Kazakh (latin) - no pangram (ÄäĞğÏïÑñÖöÜüÇçŞşʺIıİiʹÉé)">Kazakh (latin)</option>
+                <option value="Latvian - Sarkanās jūrascūciņas peld pa jūru (ĀāČčĒēĢģĪīĶķĻļŅņŠšŪūŽž)">Latvian</option>
+                <option value="Lithuanian - Įlinkdama fechtuotojo špaga sublykčiojusi pragręžė apvalų arbūzą (ĄąČčĘęĖėĮįŠšŲųŪūŽž)">Lithuanian</option>
+                <option value="Luxembourgian - Schwätzt dir Däitsch/Franséisch/Englesch? (ÉéÄäËë)">Luxembourgian</option>
+                <option value="Macedonian - Ѕидарски пејзаж: шугав билмез со чудење џвака ќофте и кељ на туѓ цех (АаБбВвГгДдЃѓЕеЖжЗзЅѕИиЈјКкЛлЉљМмНнЊњОоПпРрСсТтЌќУуФфХхЦцЧчЏџШшЀѐЍѝ)">Macedonian</option>
+                <option value="Maltese - Jekk jogħġbok ibgħat lili xi pangram (ĊċĠġĦħŻż)">Maltese</option>
+                <option value="Moldovan - Muzicologă în bej, vând whisky și tequila, preț fix (AaĂăÂâBbCcDdEeFfGgHhIiÎîJjKkLlMmNnOoPpQqRrSsȘșTtȚțUuVvWwXxYyZz)">Moldovan (latin)</option>
+                <option value="Moldovan - no pangram (АаБбВвГгДдЕеЖжӁӂЗзИиЙйКкЛлМмНнОоПпРрСсТтУуФфХхЦцЧчШшЫыЬьЭэЮюЯя)">Moldovan (cyrillic)</option>
+                <option value="Norwegian - En god stil må først og fremst være klar. Den må være passende. (ÆæØøÅå)">Norwegian</option>
+                <option value="Polish - Pójdźże, kiń tę chmurność w głąb flaszy! (ĄąĆćĘęŁłŃńÓóŚśŹźŻż)">Polish</option>
+                <option value="Portuguese- Luís argüia à Júlia que «brações, zângão» eram do português (ÁáÂâÃãÀàÉéÊêÍíÓóÔôÕõÚúÜü«»)">Portuguese</option>
+                <option value="Romanian - Muzicologă în bej, vând whisky și tequila, preț fix (ĂăÂâÎîŞşȘșŢţȚț)">Romanian</option>
+                <option value="Russian - no pangram (БВГДЕЖИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯбвгдежийклмнопрстуфхцчшщъыэюяё)">Russian</option>
+                <option value="Slovak - Kŕdeľ ďatľov učí koňa žrať kôru (ÁáÄäČčĎďÉéÍíĽľĹĺŇňÓóÔôŔŕŠšŤťÚúÝýŽž)">Slovak</option>
+                <option value="Slovene - Šerif bo za vajo spet kuhal domače žgance (ČčŠšŽž,ĆćĐđÖöÒòÓóÜü)">Slovene</option>
+                <option value="Spanish - Whisky bueno: ¡excitad mi frágil pequeña vejez! (ÁáÉéÍíÓóÚúÑñÜü¡¿)">Spanish</option>
+                <option value="Swedish - Flygande bäckasiner söka hwila på mjuka tuvor (ÅåÄäÖöÀà)">Swedish</option>
+                <option value="Turkish - Pijamalı hasta, yağız şoföre çabucak güvendi (ÇçĞğIıİiÖöŞşÜü)">Turkish</option>
+                <option value="Ukrainian - Я можу їсти скло, і воно мені не зашкодить (АаБбВвГгҐґДдЕеЄєЖжЗзИиІіЇїЙйКкЛлМмНнОоПпРрСсТтУуФфХхЦцЧчШшЩщЬьЮюЯя)">Ukrainian</option>
+                <option value="Vietnamese - ẠạẢảẤấẦầẨẩẪẫẬậẮắẰằẲẳẴẵẶặẸẹẺẻẼẽẾếỀềỂểỄễỆệỈỉĨĩỊịỌọỎỏỐốỒồỔổỖỗỘộỚớỜờỞởỠỡỢợŨũƠơƯưỤụỦủỨứỪừỬửỮữỰựỲỳỴỵỶỷỸỹ">Vietnamese</option>
+            </optgroup>
+            <optgroup label="Languages with romanization support (6)">
+                <option value="Chinese (hanyu pinyin) - Tiāndì xuánhuáng, yǔzhòu hónghuāng (āáǎàĀÁǍÀēéěèĒÉĚÈīíǐìĪÍǏÌōóǒòŌÓǑÒūúǔùŪÚǓÙüǖǘǚǜÜǕǗǙǛ)">Chinese (hanyu pinyin)</option>
+                <option value="Armenian (romanization) - ÇÊËÒÔçêëòôĊċČčĒēĚěĠġŁłŠšŽžƏǰəʿ̣̄̇̌̔ṖṗṘṙṚṛṪṫ’‛(rʿr̄ṙřr̔ṛr)">Armenian (romanization)</option>
+                <option value="Georgian (romanization) - no pangram (ŽžḠḡĞğŠšŞşČčÇç)">Georgian (romanization)</option>
+                <option value="Belarus (romanization) - no pangram (ĆćČčŹźŽžŁłŃńŚśŠšŬŭ)">Belarus (romanization)</option>
+                <option value="Japanese (macron, circumflex) - no pangram (āēīōūĀĒĪŌŪâêîôûÂÊÎÔÛ)">Japanese (macron, circumflex)</option>
+            </optgroup>
+            <optgroup label="Languages with partial support">
+                <option value="Greek basic - (αβγδεζηθικλμνξοπρςστυφχψωϑΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ)">Greek (basic)</option>
+                <option value="Greek complete - (ͰͱͲͳʹ͵Ͷͷͺͻͼͽ΄΅Ά·ΈΉΊΌΎΏΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΪΫάέήίΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώϏϐϑϒϓϔϕϖϗϘϙϚϛϜϝϞϟϠϡϢϣϤϥϦϧϨϩϪϫϬϭϮϯϰϱϲϳϴϵ϶ϷϸϹϺϻϼϽϾϿABCDEFἀἁἂἃἄἅἆἇἈἉἊἋἌἍἎἏἐἑἒἓἔἕἘἙἚἛἜἝἠἡἢἣἤἥἦἧἨἩἪἫἬἭἮἯἰἱἲἳἴἵἶἷἸἹἺἻἼἽἾἿὀὁὂὃὄὅὈὉὊὋὌὍὐὑὒὓὔὕὖὗὙὛὝὟὠὡὢὣὤὥὦὧὨὩὪὫὬὭὮὯὰάὲέὴήὶίὸόὺύὼώᾀᾁᾂᾃᾄᾅᾆᾇᾈᾉᾊᾋᾌᾍᾎᾏᾐᾑᾒᾓᾔᾕᾖᾗᾘᾙᾚᾛᾜᾝᾞᾟᾠᾡᾢᾣᾤᾥᾦᾧᾨᾩᾪᾫᾬᾭᾮᾯᾰᾱᾲᾳᾴᾶᾷᾸᾹᾺΆᾼ᾽ι᾿῀῁ῂῃῄῆῇῈΈῊΉῌ῍῎῏ῐῑῒΐῖῗῘῙῚΊ῝῞῟ῠῡῢΰῤῥῦῧῨῩῪΎῬ῭΅`ῲῳῴῶῷῸΌῺΏῼ´῾)">Greek (complete)</option>
+                <option value="Greek missing - (ͰͱͲͳʹ͵Ͷͷͺͻͼͽ·ϏϐϒϓϔϕϖϗϘϙϚϛϜϝϞϟϠϡϢϣϤϥϦϧϨϩϪϫϬϭϮϯϰϱϲϳϴϵ϶ϷϸϹϺϻϼϽϾϿἀἁἂἃἄἅἆἇἈἉἊἋἌἍἎἏἐἑἒἓἔἕἘἙἚἛἜἝἠἡἢἣἤἥἦἧἨἩἪἫἬἭἮἯἰἱἲἳἴἵἶἷἸἹἺἻἼἽἾἿὀὁὂὃὄὅὈὉὊὋὌὍὐὑὒὓὔὕὖὗὙὛὝὟὠὡὢὣὤὥὦὧὨὩὪὫὬὭὮὯὰάὲέὴήὶίὸόὺύὼώᾀᾁᾂᾃᾄᾅᾆᾇᾈᾉᾊᾋᾌᾍᾎᾏᾐᾑᾒᾓᾔᾕᾖᾗᾘᾙᾚᾛᾜᾝᾞᾟᾠᾡᾢᾣᾤᾥᾦᾧᾨᾩᾪᾫᾬᾭᾮᾯᾰᾱᾲᾳᾴᾶᾷᾸᾹᾺΆᾼ᾽ι᾿῀῁ῂῃῄῆῇῈΈῊΉῌ῍῎῏ῐῑῒΐῖῗῘῙῚΊ῝῞῟ῠῡῢΰῤῥῦῧῨῩῪΎῬ῭΅`ῲῳῴῶῷῸΌῺΏῼ´῾)">Greek (missing)</option>
+                <option value="Japanese - (いえしすてどなにのまるをアイエサシジスズタテヌプペムルー世业严事产以任伯何作使保信全公内准処分利制加効包博及发号司合告品図图型場处复外实密对工布序式态息態成所承括改放效文料施无日更書有期权材标校格档検業極権止無版物特状理産用由申留番的目码社禁秘类系総編统编罗置者行表製複規言記認語請语请財質责辑適部門関门附限集面頒页)">Japanese/Chinese</option>
+                <option value="Georgian - მინას ვჭამ და არა მტკივა (აბგდევზჱთიკლმნჲოპჟრსტჳუფქღყშჩცძწჭხჴჯჰჵჶჷჸ)">Georgian</option>
+                <option value="Montenegrin - Možte li mi preporučiti neki dobar hotel? (ABCDEFGHIJKLMNOPRSTUVZabcdefghijklmnoprstuvzĆćČčĐđŚśŠšŹźŽž)">Montenegrin (latin)</option>
+                <option value="Montenegrin - no pangram (ЂЈЉЊЋЏАБВГДЕЖЗИКЛМНОПРСТУФХЦЧШабвгдежзиклмнопрстуфхцчшђјљњћџ)">Montenegrin (cyrillic)</option>
+                <option value="Serbian - Ја могу да једем стакло (АаБбВвГгДдЂђЕеЖжЗзИиЈјКкЛлЉљМмНнЊњОоПпРрСсТтЋћУуФфХхЦцЧчЏџШш)">Serbian</option>
+                <option value="Esperanto - Eĥoŝanĝo ĉiuĵaŭde (ĈĉĜĝĤĥĴĵŜŝŬŭ)">Esperanto</option>
+            </optgroup>
+        </select>
+        Get latest version of osifont at <a href="https://code.google.com/p/osifont/">https://code.google.com/p/osifont/</a>
+    </nav>
+
+    <div id="preview" spellcheck="false" style="width: 100%; height: 100%; border: 0px solid red; float: left; margin-top: 4px;">
+    </div>
+
+  </body>
+</html>
