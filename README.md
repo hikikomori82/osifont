@@ -2,14 +2,8 @@
 
 In some European countries, CAD projects must have font which conform to IS0 3O98 specification. Commercial CADs has this font, but free CADs not. There is no available free font yet, so this project will fix this. This font will be created completely from the scratch. Font is created with free tools like FontForge, Inkscape, Gimp. Font is distributed under GNU GPL licence version 3 with GPL font exception.
 
-[Download latest version of osifont as TrueType font - osifont.ttf](https://goo.gl/ICqPXo)
-
-![Alt text](/path/to/img.jpg "Optional title")
-
-![Latest osifont.ttf](https://raw.github.com/hikikomori82/osifont/master/button.png)
-
-![<img src="https://raw.github.com/hikikomori82/osifont/master/button.png">](https://goo.gl/ICqPXo)
-
+- [Download osifont.ttf](https://goo.gl/ICqPXo)
+- [Try osifont online](https://hikikomori82.github.io/)
 
 ### Recent news
 
