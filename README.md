@@ -7,6 +7,7 @@ In some European countries, CAD projects must have font which conform to IS0 3O9
 
 ### Recent news
 
+  - **2015-05-06** - Added ЂЋћђ (Montenegrin, Serbian), increased right bearing of к
   - **2015-05-04** - Added ЎўІі (Belorussian), Ӂӂ (Moldovian), әҒғҚқҢңӨөҰұҺһ (Kazakh), ЀѐЍѝЌќЃѓЏџЅѕЉљЊњ (Macedonian), ЇїҐґЄє (Ukrainian)
   - **2015-05-01** - cleaned up russian glyphs, added hints, added Ḡḡ (Georgian) ʺʹ (Kazakh) and Ŭŭ (Belarus)
   - **2015-04-30** - Added more than 200 new characters (full russian support, partial japanese/chinese) from our contributors from Bosch.
