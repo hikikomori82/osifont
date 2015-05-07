@@ -21,9 +21,9 @@ In some European countries, CAD projects must have font which conform to IS0 3O9
   - **2014-03-02** - Glyphs (≈≡½¼¾№≐≙)
   - **2014-02-25** - Upper index numbers and signs (¹²³⁰⁴⁵⁶⁷⁸⁹⁺⁻⁼)
 
-### Supported languages (38)
+### Supported languages (40)
 
-Afrikaans, Albanian, Azerbaijani, Belorusian, Bulgarian, Catalan, Croation, Czech, Danish, Dutch, English, Estonian, Finnish, French, German, Hungarian, Icelandic, Irish (including Old Irish), Italian, Kazakh, Latvian, Lithuanian, Luxembourgish, Macedonian, Maltese, Moldovian, Norwegian, Polish, Portuguese, Romanian, Russian, Slovak, Slovene, Spanish, Swedish, Turkish, Ukrainian, Vietnamese.
+Afrikaans, Albanian, Azerbaijani, Belorusian, Bulgarian, Catalan, Croation, Czech, Danish, Dutch, English, Estonian, Finnish, French, German, Hungarian, Icelandic, Irish (including Old Irish), Italian, Kazakh, Latvian, Lithuanian, Luxembourgish, Macedonian, Maltese, Moldovian, Montenegrin (latin, cyrillic), Norwegian, Polish, Portuguese, Romanian, Russian, Serbian, Slovak, Slovene, Spanish, Swedish, Turkish, Ukrainian, Vietnamese.
 
 ### Languages supported only by romanization (4)
 
