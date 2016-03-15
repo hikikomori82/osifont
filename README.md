@@ -7,7 +7,7 @@ In some European countries, CAD projects must have font which conform to IS0 3O9
 
 ### Recent news
 
-  - **2016-03-14** - Added Maori to supported languages
+  - **2016-03-14** - Added Māori to supported languages
   - **2015-05-06** - Added ЂЋћђ (Montenegrin, Serbian), increased right bearing of к
   - **2015-05-04** - Added ЎўІі (Belorussian), Ӂӂ (Moldovian), әҒғҚқҢңӨөҰұҺһ (Kazakh), ЀѐЍѝЌќЃѓЏџЅѕЉљЊњ (Macedonian), ЇїҐґЄє (Ukrainian)
   - **2015-05-01** - cleaned up russian glyphs, added hints, added Ḡḡ (Georgian) ʺʹ (Kazakh) and Ŭŭ (Belarus)
@@ -24,7 +24,7 @@ In some European countries, CAD projects must have font which conform to IS0 3O9
 
 ### Supported languages (41)
 
-Afrikaans, Albanian, Azerbaijani, Belorusian, Bulgarian, Catalan, Croation, Czech, Danish, Dutch, English, Estonian, Finnish, French, German, Hungarian, Icelandic, Irish (including Old Irish), Italian, Kazakh, Latvian, Lithuanian, Luxembourgish, Macedonian, Maltese, Maori, Moldovian, Montenegrin (latin, cyrillic), Norwegian, Polish, Portuguese, Romanian, Russian, Serbian, Slovak, Slovene, Spanish, Swedish, Turkish, Ukrainian, Vietnamese.
+Afrikaans, Albanian, Azerbaijani, Belorusian, Bulgarian, Catalan, Croation, Czech, Danish, Dutch, English, Estonian, Finnish, French, German, Hungarian, Icelandic, Irish (including Old Irish), Italian, Kazakh, Latvian, Lithuanian, Luxembourgish, Macedonian, Maltese, Māori, Moldovian, Montenegrin (latin, cyrillic), Norwegian, Polish, Portuguese, Romanian, Russian, Serbian, Slovak, Slovene, Spanish, Swedish, Turkish, Ukrainian, Vietnamese.
 
 ### Languages supported only by romanization (4)
 
