@@ -5,6 +5,7 @@ In some European countries, CAD projects must have font which conform to IS0 3O9
 - Download [osifont.ttf](https://goo.gl/ICqPXo) - GNU GPL licence version 3 with font exception
 - Download [osifont-gpl2fe.ttf](https://goo.gl/5fT6Ei) - GNU GPL licence version 2 with font exception
 - Download [osifont-lgpl3fe.ttf](https://goo.gl/PXRTfM) - GNU LGPL licence version 3 with font exception
+- [Try osifont online](https://hikikomori82.github.io/)
 
 ### Recent news
 
