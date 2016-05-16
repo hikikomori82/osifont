@@ -1,12 +1,13 @@
 # What is osifont
 
-In some European countries, CAD projects must have font which conform to IS0 3O98 specification. Commercial CADs has this font, but free CADs not. There is no available free font yet, so this project will fix this. This font will be created completely from the scratch. Font is created with free tools like FontForge, Inkscape, Gimp. Font is distributed under GNU GPL licence version 3 with GPL font exception.
+In some European countries, CAD projects must have font which conform to IS0 3O98 specification. Commercial CADs has this font, but free CADs not. There is no available free font yet, so this project will fix this. This font will be created completely from the scratch. Font is created with free tools like FontForge, Inkscape, Gimp. Font is available under 3 licences: GNU GPL licence version 3 with GPL font exception, GNU GPL licence version 2 with GPL font exception, GNU LGPL licence version 3 with GPL font exception.
 
 - [Download osifont.ttf](https://goo.gl/ICqPXo)
 - [Try osifont online](https://hikikomori82.github.io/)
 
 ### Recent news
 
+  - **2016-05-16** - added GPL version 2 with font exception version and LGPL version 3 with font exception version
   - **2016-03-14** - Added Māori to supported languages
   - **2015-05-06** - Added ЂЋћђ (Montenegrin, Serbian), increased right bearing of к
   - **2015-05-04** - Added ЎўІі (Belorussian), Ӂӂ (Moldovian), әҒғҚқҢңӨөҰұҺһ (Kazakh), ЀѐЍѝЌќЃѓЏџЅѕЉљЊњ (Macedonian), ЇїҐґЄє (Ukrainian)
