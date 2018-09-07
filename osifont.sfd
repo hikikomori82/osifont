@@ -398,7 +398,7 @@ SplineSet
  376 1515 376 1515 520 1515 c 6,0,1
 EndSplineSet
 Validated: 1
-Kerns2: 43 -509 "kernsubtable"  102 -156 "kernsubtable"  100 -101 "kernsubtable"  99 -167 "kernsubtable"  86 -103 "kernsubtable" 
+Kerns2: 43 -149 "kernsubtable"  102 -156 "kernsubtable"  100 -101 "kernsubtable"  99 -167 "kernsubtable"  86 -103 "kernsubtable" 
 EndChar
 
 StartChar: K
@@ -614,7 +614,7 @@ SplineSet
  295 1510 295 1510 295 1433 c 26,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 43 -513 "kernsubtable"  102 -156 "kernsubtable"  100 -101 "kernsubtable"  99 -167 "kernsubtable"  86 -102 "kernsubtable" 
+Kerns2: 43 -134 "kernsubtable"  102 -156 "kernsubtable"  100 -101 "kernsubtable"  99 -167 "kernsubtable"  86 -102 "kernsubtable" 
 EndChar
 
 StartChar: M
@@ -741,7 +741,7 @@ SplineSet
  298 763 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 43 -506 "kernsubtable"  30 -598 "kernsubtable"  31 -538 "kernsubtable" 
+Kerns2: 43 -108 "kernsubtable"  30 -598 "kernsubtable"  31 -538 "kernsubtable" 
 EndChar
 
 StartChar: X
@@ -899,7 +899,7 @@ SplineSet
  100 1370 100 1370 100 1446 c 0,0,1
 EndSplineSet
 Validated: 1
-Kerns2: 12 -137 "kernsubtable"  5 -137 "kernsubtable"  537 -300 "kernsubtable"  43 -278 "kernsubtable"  185 -333 "kernsubtable"  184 -328 "kernsubtable"  30 -368 "kernsubtable"  31 -309 "kernsubtable"  103 -278 "kernsubtable"  102 -278 "kernsubtable"  101 -278 "kernsubtable"  100 -278 "kernsubtable"  99 -278 "kernsubtable"  98 -307 "kernsubtable"  96 -278 "kernsubtable"  95 -307 "kernsubtable"  94 -307 "kernsubtable"  93 -327 "kernsubtable"  92 -307 "kernsubtable"  78 -307 "kernsubtable"  87 -307 "kernsubtable"  86 -125 "kernsubtable"  84 -307 "kernsubtable"  83 -307 "kernsubtable"  81 -278 "kernsubtable"  80 -226 "kernsubtable"  85 -308 "kernsubtable" 
+Kerns2: 12 -137 "kernsubtable"  5 -137 "kernsubtable"  537 -300 "kernsubtable"  43 -89 "kernsubtable"  185 -333 "kernsubtable"  184 -328 "kernsubtable"  30 -368 "kernsubtable"  31 -309 "kernsubtable"  103 -278 "kernsubtable"  102 -278 "kernsubtable"  101 -278 "kernsubtable"  100 -278 "kernsubtable"  99 -278 "kernsubtable"  98 -307 "kernsubtable"  96 -278 "kernsubtable"  95 -307 "kernsubtable"  94 -307 "kernsubtable"  93 -327 "kernsubtable"  92 -307 "kernsubtable"  78 -307 "kernsubtable"  87 -307 "kernsubtable"  86 -125 "kernsubtable"  84 -307 "kernsubtable"  83 -307 "kernsubtable"  81 -278 "kernsubtable"  80 -226 "kernsubtable"  85 -308 "kernsubtable" 
 EndChar
 
 StartChar: E
@@ -932,7 +932,7 @@ SplineSet
  294 149 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 43 -510 "kernsubtable"  86 -105 "kernsubtable" 
+Kerns2: 43 -169 "kernsubtable"  86 -105 "kernsubtable" 
 EndChar
 
 StartChar: H
@@ -992,7 +992,7 @@ SplineSet
  293 142 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 43 -335 "kernsubtable"  102 -81 "kernsubtable"  100 -82 "kernsubtable"  99 -82 "kernsubtable"  86 -103 "kernsubtable" 
+Kerns2: 43 -89 "kernsubtable"  102 -81 "kernsubtable"  100 -82 "kernsubtable"  99 -82 "kernsubtable"  86 -103 "kernsubtable" 
 EndChar
 
 StartChar: Y
@@ -1021,7 +1021,7 @@ SplineSet
  702 757 l 5,21,-1
  702 85 l 6,0,1
 EndSplineSet
-Kerns2: 43 -357 "kernsubtable"  185 -333 "kernsubtable"  184 -267 "kernsubtable"  30 -448 "kernsubtable"  31 -389 "kernsubtable"  103 -123 "kernsubtable"  102 -123 "kernsubtable"  101 -123 "kernsubtable"  100 -125 "kernsubtable"  99 -127 "kernsubtable"  98 -157 "kernsubtable"  96 -211 "kernsubtable"  95 -152 "kernsubtable"  94 -271 "kernsubtable"  93 -182 "kernsubtable"  80 -297 "kernsubtable"  92 -152 "kernsubtable"  78 -151 "kernsubtable"  87 -259 "kernsubtable"  86 -128 "kernsubtable"  85 -297 "kernsubtable"  84 -262 "kernsubtable"  83 -256 "kernsubtable"  81 -202 "kernsubtable" 
+Kerns2: 43 -169 "kernsubtable"  185 -333 "kernsubtable"  184 -267 "kernsubtable"  30 -448 "kernsubtable"  31 -389 "kernsubtable"  103 -123 "kernsubtable"  102 -123 "kernsubtable"  101 -123 "kernsubtable"  100 -125 "kernsubtable"  99 -127 "kernsubtable"  98 -157 "kernsubtable"  96 -211 "kernsubtable"  95 -152 "kernsubtable"  94 -271 "kernsubtable"  93 -182 "kernsubtable"  80 -297 "kernsubtable"  92 -152 "kernsubtable"  78 -151 "kernsubtable"  87 -259 "kernsubtable"  86 -128 "kernsubtable"  85 -297 "kernsubtable"  84 -262 "kernsubtable"  83 -256 "kernsubtable"  81 -202 "kernsubtable" 
 EndChar
 
 StartChar: D
@@ -2496,7 +2496,7 @@ SplineSet
  653 1062 l 6,0,1
 EndSplineSet
 Validated: 1
-Kerns2: 43 -354 "kernsubtable" 
+Kerns2: 43 -127 "kernsubtable" 
 EndChar
 
 StartChar: d
@@ -2895,7 +2895,7 @@ SplineSet
  130 979 l 2,0,1
 EndSplineSet
 Validated: 1
-Kerns2: 43 -357 "kernsubtable"  30 -449 "kernsubtable"  31 -389 "kernsubtable" 
+Kerns2: 43 -92 "kernsubtable"  30 -449 "kernsubtable"  31 -389 "kernsubtable" 
 EndChar
 
 StartChar: s

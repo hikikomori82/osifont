@@ -2,17 +2,25 @@
 
 In some European countries, CAD projects must have font which conform to IS0 3O98 specification. Commercial CADs has this font, but free CADs not. There is no available free font yet, so this project will fix this. This font will be created completely from the scratch. Font is created with free tools like FontForge, Inkscape, Gimp. Font is available under 3 licences: GNU GPL licence version 3 with GPL font exception, GNU GPL licence version 2 with GPL font exception, GNU LGPL licence version 3 with GPL font exception.
 
-- Download [osifont.ttf](https://goo.gl/ICqPXo) - GNU GPL licence version 3 with font exception
-- Download [osifont-gpl2fe.ttf](https://goo.gl/5fT6Ei) - GNU GPL licence version 2 with font exception
-- Download [osifont-lgpl3fe.ttf](https://goo.gl/PXRTfM) - GNU LGPL licence version 3 with font exception
-- [Try osifont online](https://hikikomori82.github.io/)
+### License
+
+Try it online:
+
+- You can now [try osifont online](https://hikikomori82.github.io/)
+
+Osifont is available in 3 different licenses:
+
+- osifont.ttf - GNU GPL licence version 3 with font exception
+- osifont-gpl2fe.ttf - GNU GPL licence version 2 with font exception
+- osifont-lgpl3fe.ttf - GNU LGPL licence version 3 with font exception
 
 ### Recent news
 
+  - **2018-09-07** - fixed kerning in E-F-C-D-L-T-Y-Z-c-r-, fixed typo in Belarusian
   - **2016-05-16** - added GPL version 2 with font exception version and LGPL version 3 with font exception version
   - **2016-03-14** - Added Māori to supported languages
   - **2015-05-06** - Added ЂЋћђ (Montenegrin, Serbian), increased right bearing of к
-  - **2015-05-04** - Added ЎўІі (Belorussian), Ӂӂ (Moldovian), әҒғҚқҢңӨөҰұҺһ (Kazakh), ЀѐЍѝЌќЃѓЏџЅѕЉљЊњ (Macedonian), ЇїҐґЄє (Ukrainian)
+  - **2015-05-04** - Added ЎўІі (Belarusian), Ӂӂ (Moldovian), әҒғҚқҢңӨөҰұҺһ (Kazakh), ЀѐЍѝЌќЃѓЏџЅѕЉљЊњ (Macedonian), ЇїҐґЄє (Ukrainian)
   - **2015-05-01** - cleaned up russian glyphs, added hints, added Ḡḡ (Georgian) ʺʹ (Kazakh) and Ŭŭ (Belarus)
   - **2015-04-30** - Added more than 200 new characters (full russian support, partial japanese/chinese) from our contributors from Bosch.
   - **2014-11-14** - Dot moved to baseline (35'535 downloads)
@@ -27,7 +35,7 @@ In some European countries, CAD projects must have font which conform to IS0 3O9
 
 ### Supported languages (41)
 
-Afrikaans, Albanian, Azerbaijani, Belorusian, Bulgarian, Catalan, Croation, Czech, Danish, Dutch, English, Estonian, Finnish, French, German, Hungarian, Icelandic, Irish (including Old Irish), Italian, Kazakh, Latvian, Lithuanian, Luxembourgish, Macedonian, Maltese, Māori, Moldovian, Montenegrin (latin, cyrillic), Norwegian, Polish, Portuguese, Romanian, Russian, Serbian, Slovak, Slovene, Spanish, Swedish, Turkish, Ukrainian, Vietnamese.
+Afrikaans, Albanian, Azerbaijani, Belarusian, Bulgarian, Catalan, Croation, Czech, Danish, Dutch, English, Estonian, Finnish, French, German, Hungarian, Icelandic, Irish (including Old Irish), Italian, Kazakh, Latvian, Lithuanian, Luxembourgish, Macedonian, Maltese, Māori, Moldovian, Montenegrin (latin, cyrillic), Norwegian, Polish, Portuguese, Romanian, Russian, Serbian, Slovak, Slovene, Spanish, Swedish, Turkish, Ukrainian, Vietnamese.
 
 ### Languages supported only by romanization (4)
 
