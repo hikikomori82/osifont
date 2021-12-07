@@ -18,6 +18,7 @@ Disclaimer: Only contributors with at least 10% of glyphs contributed can discus
 
 ### Recent news
 
+  - **2021-12-07** - fixed kerning in P.(A-Za-z), removed Belarusian support in protest of latest actions on Polish border
   - **2018-09-07** - fixed kerning in E-F-C-D-L-T-Y-Z-c-r-, fixed typo in Belarusian
   - **2016-05-16** - added GPL version 2 with font exception version and LGPL version 3 with font exception version
   - **2016-03-14** - Added Māori to supported languages
@@ -35,9 +36,9 @@ Disclaimer: Only contributors with at least 10% of glyphs contributed can discus
   - **2014-03-02** - Glyphs (≈≡½¼¾№≐≙)
   - **2014-02-25** - Upper index numbers and signs (¹²³⁰⁴⁵⁶⁷⁸⁹⁺⁻⁼)
 
-### Supported languages (41)
+### Supported languages (40)
 
-Afrikaans, Albanian, Azerbaijani, Belarusian, Bulgarian, Catalan, Croation, Czech, Danish, Dutch, English, Estonian, Finnish, French, German, Hungarian, Icelandic, Irish (including Old Irish), Italian, Kazakh, Latvian, Lithuanian, Luxembourgish, Macedonian, Maltese, Māori, Moldovian, Montenegrin (latin, cyrillic), Norwegian, Polish, Portuguese, Romanian, Russian, Serbian, Slovak, Slovene, Spanish, Swedish, Turkish, Ukrainian, Vietnamese.
+Afrikaans, Albanian, Azerbaijani, Bulgarian, Catalan, Croation, Czech, Danish, Dutch, English, Estonian, Finnish, French, German, Hungarian, Icelandic, Irish (including Old Irish), Italian, Kazakh, Latvian, Lithuanian, Luxembourgish, Macedonian, Maltese, Māori, Moldovian, Montenegrin (latin, cyrillic), Norwegian, Polish, Portuguese, Romanian, Russian, Serbian, Slovak, Slovene, Spanish, Swedish, Turkish, Ukrainian, Vietnamese.
 
 ### Languages supported only by romanization (4)
 
