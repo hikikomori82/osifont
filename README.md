@@ -4,7 +4,7 @@ In some European countries, CAD projects must have font which conform to IS0 3O9
 
 ### Try it online:
 
-- You can now [try osifont online](https://hikikomori82.github.io/)
+- You can now [try osifont online](https://hikikomori82.github.io/osifont/)
 
 ### License
 
