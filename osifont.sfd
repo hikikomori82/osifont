@@ -590,7 +590,7 @@ SplineSet
  298 88 l 18,10,11
 EndSplineSet
 Validated: 1
-Kerns2: 4 -193 "kernsubtable" 4 -155 "kernsubtable" 31 -220 "kernsubtable" 43 -134 "kernsubtable" 30 -749 "kernsubtable"
+Kerns2: 4 -193 "kernsubtable" 4 -155 "kernsubtable" 31 -220 "kernsubtable" 43 -134 "kernsubtable" 30 -349 "kernsubtable"
 EndChar
 
 StartChar: L
