@@ -16,13 +16,13 @@ LayerCount: 2
 Layer: 0 1 "Back" 1
 Layer: 1 1 "Fore" 0
 XUID: [1021 152 -1143971804 645986]
-StyleMap: 0x0040
+StyleMap: 0x0001
 FSType: 0
 OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1212424095
-ModificationTime: 1670882971
+ModificationTime: 1679493319
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -94,7 +94,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 798 38 13
+WinInfo: 775 25 13
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "Anchor-0" "'mark' Mark Positioning lookup 1 subtable"
