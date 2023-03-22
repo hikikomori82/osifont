@@ -18,6 +18,7 @@ Disclaimer: Only contributors with at least 10% of glyphs contributed can discus
 
 ### Recent news
 
+  - **2023-03-22** - fixed italic style map (issue 17)
   - **2022-10-20** - fixed kerning (issue 12)
   - **2022-02-24** - removed (ЭёЁ), removed Russian support in protest of invasion of Ukraine
   - **2021-12-07** - fixed kerning in P.(A-Za-z), removed Belarusian support in protest of latest actions on Polish border
