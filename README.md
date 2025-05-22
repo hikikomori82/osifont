@@ -18,6 +18,7 @@ Disclaimer: Only contributors with at least 10% of glyphs contributed can discus
 
 ### Recent news
 
+  - **2025-05-20** - Added ĈĉĜĝĤĥĴĵŜŝ for Esperanto support
   - **2023-03-22** - fixed italic style map (issue 17)
   - **2022-10-20** - fixed kerning (issue 12)
   - **2022-02-24** - removed (ЭёЁ), removed Russian support in protest of invasion of Ukraine
@@ -41,7 +42,7 @@ Disclaimer: Only contributors with at least 10% of glyphs contributed can discus
 
 ### Supported languages (39)
 
-Afrikaans, Albanian, Azerbaijani, Bulgarian, Catalan, Croation, Czech, Danish, Dutch, English, Estonian, Finnish, French, German, Hungarian, Icelandic, Irish (including Old Irish), Italian, Kazakh, Latvian, Lithuanian, Luxembourgish, Macedonian, Maltese, Māori, Moldovian, Montenegrin (latin, cyrillic), Norwegian, Polish, Portuguese, Romanian, Serbian, Slovak, Slovene, Spanish, Swedish, Turkish, Ukrainian, Vietnamese.
+Afrikaans, Albanian, Azerbaijani, Bulgarian, Catalan, Croation, Czech, Danish, Dutch, English, Esperanto, Estonian, Finnish, French, German, Hungarian, Icelandic, Irish (including Old Irish), Italian, Kazakh, Latvian, Lithuanian, Luxembourgish, Macedonian, Maltese, Māori, Moldovian, Montenegrin (latin, cyrillic), Norwegian, Polish, Portuguese, Romanian, Serbian, Slovak, Slovene, Spanish, Swedish, Turkish, Ukrainian, Vietnamese.
 
 ### Languages supported only by romanization (4)
 
